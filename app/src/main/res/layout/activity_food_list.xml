@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Food_List">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/andika_new_basic"
+        android:text="Food Item"
+        android:textColor="#1E1E1E"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/white"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="25dp"
+                        android:text=" Roti\n\n Fruit\n\n
+Eggs\n\n
+Meat\n\n
+Nuts and seeds\n\n
+Veggies\n\n
+Seafood\n\n
+Grains\n\n
+Bread\n\n
+Eggs\n\n
+Meat\n\n
+Nuts and seeds\n\n
+Veggies\n\n
+Seafood\n\n
+Grains\n\n
+Bread\n\n
+Eggs\n\n
+Meat\n\n
+Nuts and seeds\n\n
+Veggies\n\n
+Seafood\n\n
+Grains\n\n
+Bread\n\n
+Eggs\n\n
+Meat\n\n
+Nuts and seeds\n\n
+Veggies\n\n
+Seafood\n\n
+Grains\n\n
+Bread\n\n
+Eggs\n\nBread\n\n
+Eggs\n\n
+Meat\n\n
+Nuts and seeds\n\n
+Veggies\n\n
+Seafood\n\n
+Grains\n\n
+Bread\n\n
+Eggs\n\n
+Meat\n\n
+Nuts and seeds\n\n
+Veggies\n\n
+Seafood\n\n
+Grains\n\n
+Bread\n\n
+Eggs\n\nBread\n\n
+Eggs\n\n
+Meat\n\n
+Nuts and seeds\n\n
+Veggies\n\n
+Seafood\n\n
+Grains\n\n
+Bread\n\n
+Eggs\n\n
+Meat\n\n
+Nuts and seeds\n\n
+Veggies\n\n
+Seafood\n\n
+Grains\n\n
+Bread\n\n
+Eggs
+"
+                        android:textColor="#1E1E1E"
+                        android:textSize="16sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </ScrollView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
