@@ -1,2 +1,3 @@
-# Food1_Delivery_UI
-Smart Intern Project
+# Food_Delivery_UI
+
+Smart Intern Project Assignment
