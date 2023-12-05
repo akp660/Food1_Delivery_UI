@@ -1,4 +1,4 @@
 # Food_Delivery_UI
 
 Smart Intern Project Assignment. 
-Android Application
+Android Application based on java.
